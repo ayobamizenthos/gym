@@ -1,10 +1,14 @@
 import transformationImage from "@/assets/transformation.jpg";
 import { motion, useScroll, useTransform } from "framer-motion";
+
+interface TransformationsProps {
+  onShowTrialModal: () => void;
+}
 import { useRef } from "react";
 import { ArrowRight } from "lucide-react";
 import MagneticButton from "./MagneticButton";
 
-const Transformations = () => {
+const Transformations = ({ onShowTrialModal }: TransformationsProps) => {
   const sectionRef = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({
     target: sectionRef,
@@ -99,7 +103,7 @@ const Transformations = () => {
           className="text-center"
         >
           <MagneticButton
-            onClick={() => window.open("https://wa.me/2348035009283?text=I%20want%20to%20start%20my%20transformation%20at%206:45%20Fitness", "_blank")}
+            onClick={onShowTrialModal}
             className="bg-gradient-to-r from-primary to-gold-dark text-primary-foreground font-bold rounded-full px-10 md:px-14 py-5 md:py-7 hover-glow-gold inline-flex items-center gap-3 text-base md:text-lg btn-premium"
           >
             WRITE YOUR SUCCESS STORY

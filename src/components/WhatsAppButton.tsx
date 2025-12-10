@@ -1,8 +1,12 @@
 import { MessageCircle } from "lucide-react";
 
-const WhatsAppButton = () => {
+interface WhatsAppButtonProps {
+  onShowTrialModal: () => void;
+}
+
+const WhatsAppButton = ({ onShowTrialModal }: WhatsAppButtonProps) => {
   const handleClick = () => {
-    window.open("https://wa.me/2348035009283?text=Hi%2C%20I%20want%20to%20join%206%3A45%20Fitness", "_blank");
+    onShowTrialModal();
   };
 
   return (

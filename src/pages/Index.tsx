@@ -99,7 +99,7 @@ const Index = () => {
           <About />
           <Membership />
           <Classes />
-          <Transformations />
+          <Transformations onShowTrialModal={() => setShowTrialModal(true)} />
           <Testimonials />
           <Store />
           <Blog />
