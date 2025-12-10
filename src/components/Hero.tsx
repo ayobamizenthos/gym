@@ -16,7 +16,7 @@ const Hero = () => {
   const scale = useTransform(scrollYProgress, [0, 0.5], [1, 1.1]);
 
   const handleJoinNow = () => {
-    window.open("https://wa.me/2348000000000?text=I%20want%20to%20join%206:45%20Fitness", "_blank");
+    window.open("https://wa.me/2348035009283?text=I%20want%20to%20join%206:45%20Fitness", "_blank");
   };
 
   const handleFreeTrial = () => {

@@ -53,7 +53,7 @@ const Membership = () => {
   ];
 
   const handleJoin = (planName: string) => {
-    window.open(`https://wa.me/2348000000000?text=I%20want%20to%20join%20the%20${encodeURIComponent(planName)}%20plan%20at%206:45%20Fitness`, "_blank");
+    window.open(`https://wa.me/2348035009283?text=I%20want%20to%20join%20the%20${encodeURIComponent(planName)}%20plan%20at%206:45%20Fitness`, "_blank");
   };
 
   return (

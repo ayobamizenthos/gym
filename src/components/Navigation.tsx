@@ -46,7 +46,7 @@ const Navigation = () => {
   ];
 
   const handleJoinNow = () => {
-    window.open("https://wa.me/2348000000000?text=I%20want%20to%20join%206%3A45%20Fitness", "_blank");
+    window.open("https://wa.me/2348035009283?text=I%20want%20to%20join%206%3A45%20Fitness", "_blank");
   };
 
   return (

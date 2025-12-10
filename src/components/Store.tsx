@@ -98,7 +98,7 @@ const Store = () => {
   };
 
   const handleBuy = (productName: string) => {
-    window.open(`https://wa.me/2348000000000?text=I%20want%20to%20purchase%20${encodeURIComponent(productName)}%20from%206:45%20Fitness`, "_blank");
+    window.open(`https://wa.me/2348035009283?text=I%20want%20to%20purchase%20${encodeURIComponent(productName)}%20from%206:45%20Fitness`, "_blank");
   };
 
   return (
@@ -207,7 +207,7 @@ const Store = () => {
           className="text-center mt-12 md:mt-20"
         >
           <MagneticButton
-            onClick={() => window.open("https://wa.me/2348000000000?text=I%20want%20to%20see%20the%20full%20collection%20at%206:45%20Fitness", "_blank")}
+            onClick={() => window.open("https://wa.me/2348035009283?text=I%20want%20to%20see%20the%20full%20collection%20at%206:45%20Fitness", "_blank")}
             className="px-10 md:px-14 py-5 md:py-7 text-base md:text-lg font-bold bg-gradient-to-r from-primary to-gold-dark text-primary-foreground rounded-full shadow-lg hover-glow-gold group btn-premium"
           >
             Explore Full Collection

@@ -62,7 +62,7 @@ const Classes = () => {
   };
 
   const handleBookClass = (className: string) => {
-    window.open(`https://wa.me/2348000000000?text=I%20want%20to%20book%20${encodeURIComponent(className)}%20class%20at%206:45%20Fitness`, "_blank");
+    window.open(`https://wa.me/2348035009283?text=I%20want%20to%20book%20${encodeURIComponent(className)}%20class%20at%206:45%20Fitness`, "_blank");
   };
 
   return (

@@ -14,7 +14,7 @@ const Footer = () => {
   const socials = [
     { icon: Instagram, href: "https://www.instagram.com/6.45hotelandsuites/", label: "Instagram" },
     { icon: Youtube, href: "https://www.youtube.com/@645hotelsuites2", label: "YouTube" },
-    { icon: MessageCircle, href: "https://wa.me/2348000000000", label: "WhatsApp" }
+    { icon: MessageCircle, href: "https://wa.me/2348035009283", label: "WhatsApp" }
   ];
 
   return (
