@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Youtube, MessageCircle, ArrowUpRight } from "lucide-react";
+import { Instagram, Youtube, MessageCircle, ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 import MagneticButton from "./MagneticButton";
 
@@ -13,7 +13,6 @@ const Footer = () => {
 
   const socials = [
     { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Facebook, href: "#", label: "Facebook" },
     { icon: Youtube, href: "#", label: "YouTube" },
     { icon: MessageCircle, href: "https://wa.me/2348000000000", label: "WhatsApp" }
   ];
