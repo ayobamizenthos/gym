@@ -16,21 +16,21 @@ const Testimonials = () => {
     {
       name: "Adebayo Johnson",
       role: "Entrepreneur",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      image: "https://media.istockphoto.com/id/1357739764/photo/shot-of-an-athletic-young-man-doing-heavy-rope-training-outside.jpg?s=612x612&w=0&k=20&c=LnKkyiakvwudNaVsPgnNxCo8vKfRo-DJ3n2tpiKpwIE=",
       rating: 5,
       quote: "6:45 Fitness didn't just transform my body - it transformed my business. The discipline I learned here changed everything. My productivity doubled. My confidence tripled. Best investment I ever made."
     },
     {
       name: "Chioma Okafor",
       role: "Marketing Executive",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+      image: "https://media.istockphoto.com/id/1199193290/photo/handsome-sporty-guy-smiling.jpg?s=612x612&w=0&k=20&c=PhSJe6q9QodvShROZ5tafLW43AAkA7SM8n4_kYj9Im0=",
       rating: 5,
       quote: "I've tried every gym in Lagos. 6:45 is different. The trainers push you to limits you didn't know existed. The community celebrates every win. Lost 15kg in 4 months and gained a family."
     },
     {
       name: "Emeka Williams",
       role: "Software Engineer",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+      image: "https://media.istockphoto.com/id/484948560/photo/looking-good-feeling-great.jpg?s=612x612&w=0&k=20&c=UKpHGfSL7fcC9Kl_wcq7Qj3sY3kkUrCy5cKEF9fLnRM=",
       rating: 5,
       quote: "The 6:45 AM sessions rewired my brain. I'm more focused, more energized, more present. My code is cleaner. My deadlines are always met. This gym is a performance multiplier."
     },
